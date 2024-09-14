@@ -1,0 +1,165 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+}
+
+/* Header Styles */
+header {
+    background: #004a7c;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #ffdd57;
+}
+
+/* Section Styles */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* About Section */
+.about {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about h2 {
+    color: #004a7c;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.1em;
+}
+
+/* Membership Section */
+.membership {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.membership h2 {
+    color: #004a7c;
+    margin-bottom: 20px;
+}
+
+.membership p {
+    margin-bottom: 20px;
+}
+
+.membership .cta-button {
+    display: inline-block;
+    background: #004a7c;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.membership .cta-button:hover {
+    background: #ffdd57;
+    color: #004a7c;
+}
+
+/* Events Section */
+.events {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.events h2 {
+    color: #004a7c;
+    margin-bottom: 20px;
+}
+
+.events ul {
+    list-style: none;
+}
+
+.events ul li {
+    background: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-left: 4px solid #004a7c;
+    font-size: 1.1em;
+}
+
+/* Footer Styles */
+footer {
+    background: #004a7c;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: #ffdd57;
+}
